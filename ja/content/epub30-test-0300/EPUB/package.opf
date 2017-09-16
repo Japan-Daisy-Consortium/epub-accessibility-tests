@@ -10,9 +10,9 @@
         <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
         <meta refines="#creator1" property="file-as">DeMeglio, Marisa</meta>
 	<dc:creator id="translator1">Advanced Publishing Laboratory, Japan</dc:creator>
-	<meta refines="#translator1" property="role" schema="marc:relators">trl</meta>
+	<meta refines="#translator1" property="role" scheme="marc:relators">trl</meta>
         <dc:language>ja</dc:language>
-        <meta property="dcterms:modified">2017-09-16T18:16:00+09:00</meta>
+        <meta property="dcterms:modified">2017-09-17T03:39:00Z</meta>
     </metadata>
     <manifest>
         <!-- css -->
