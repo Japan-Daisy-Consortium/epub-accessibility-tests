@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:epub="http://www.idpf.org/2007/ops">
+    <head>
+        <meta charset="utf-8" />
+        <link href="../css/base.css" type="text/css" rel="stylesheet" />
+        <title>読み上げテスト</title>
+    </head>
+
+    <body>
+        <h1>Read Aloud Tests</h1>
+    <p>以下のテストは、リーディングシステムの読み上げ機能を評価するためのものである。これらの読み上げテストは、スクリーンリーダー、オペレーティングシステム機能、またはサードパーティのツールを用いずに実行すること。</p>
+
+        <section id="ReadAloud-010" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-010</span> </h2>
+            <div class="desc">
+<p>コンテンツを読む上げられる。</p>
+<p>段落や文章の先頭に移動し、リーディングシステムの機能を使用してテキスト読み上げで読書を開始する。</p>
+</div>
+            <p class="eval">合格または不合格を選べ。</p>
+        </section>
+
+
+        <section id="ReadAloud-110" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-110</span> </h2>
+            <div class="desc">
+<p>読書を停止し再開する。</p>
+<ol><li>本のどこかから読みはじめること。</li>
+<li>読み上げを停止し、読み上げられた最後の位置を記録する。</li>
+  <li>読み上げ機能を使用して再度読み込みを開始し、最後の位置から読み上げが始まるかどうかを確認する。</li></ol>
+</div>
+            <p class="eval">合格または不合格を選べ。</p>
+        </section>
+
+        <section id="ReadAloud-210" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-210</span> </h2>
+            <div class="desc">
+	      <p>読み上げ機能は、ユーザーが中断するまで継続し、読み上げられているテキストを表示し続ける。</p>
+<ol><li>読み上げ機能を起動する。</li>
+  <li>手動で停止するまで、読み上げはページ/画面が変わっても継続する必要がある。</li>
+<li>読み上げられているテキストは、画面に表示されていること。</li>
+</ol>
+</div>
+            <p class="eval">合格または不合格を選べ。</p>
+        </section>
+
+        <section id="ReadAloud-310" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-310</span> </h2>
+            <div class="desc">
+
+<p>すべてのテキストを適切な順序で読むこと</p>
+<p>読み上げ順序をテストするためのサンプルテキストが以下に提供されている。読み上げ機能は、第一段落の後第二段落を読むこと。視覚的には第二段落は第一段落の左に置かれているが、読み上げ順序では2番目であることに留意されたい。</p>
+</div>
+            <p class="eval">合格または不合格を選べ。</p>
+
+<section class="sample-text">
+<p class="sample">
+第一段落：母の日は、母親、母性、母方の絆、母親の社会への影響を称賛するお祝いです。 世界の多くの地域で様々な日に祝われていますが、普通は3月または5月です。父の日や兄弟の日など、家族を尊重する同様のお祝いを補完するものです。
+</p>
+
+<p class="sidebartype">
+第二段落：イスラエルの母の日：ユダヤ人は、ユダヤのカレンダーで11月30日に母の日を祝う。これは1月30日から3月1日の間にあたる。ヘンリエッタ・スゾルドの命日と同じ日に設定されている。
+</p>
+</section>
+        </section>
+
+
+
+    <section id="ReadAloud-410" class="ftest">
+        <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-410</span> </h2>
+        <p class="desc">読み上げ速度を変更する。</p>
+<p>読み取り速度を調整（増減）することが可能でなければなりません。</p>
+
+            <p class="eval">合格または不合格を選べ。</p>
+
+    </section>
+
+    <section id="ReadAloud-510" class="ftest">
+        <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-510</span> </h2>
+        <p class="desc">読み上げは、句読点や文書構造を適切に処理する。</p>
+	<p>読み上げを有効にしたとき、見出し・段落・リスト項目などの後で少し停止すること。次のテキストと繋げて読んではいけない。</p>
+            <p class="eval">合格または不合格を選べ。</p>
+
+    </section>
+
+        <section id="ReadAloud-610" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-610</span> </h2>
+	    <div class="desc">
+<p>読み上げられているテキストは強調表示されること。</p>
+</div>
+<ol>
+<li>リーディングシステムの読み上げ機能を有効にする。</li>
+<li>読み上げが有効になっているときは、色のコントラストや他の手段を使用して、読み上げられているテキストを視覚的に強調する必要がある。読み上げが続くと、強調表示も次のテキストセクションに移動すること。</li>
+</ol>
+
+            <p class="eval">合格または不合格を選べ。</p>
+        </section>
+
+        <section id="ReadAloud-710" class="ftest">
+            <h2><span class="nature">[REQUIRED]</span> <span class="test-id">ReadAloud-710</span> </h2>
+            <div class="desc">
+<p>強調または強調表示の色を変更すること。</p>
+</div>
+	    <p>前のテストの説明に従って、読み上げ機能を有効にする。 リーディングシステムまたはオペレーティングシステムで利用可能な機能を使用して、読み上げ中のテキストの強調（すなわち視覚的ハイライト）の色を変更します。 ユーザーは、テキストハイライトのために別の色を選ぶことができるること。</p>
+
+            <p class="eval">合格または不合格を選べ。</p>
+        </section>
+
+
+    </body>
+</html>
